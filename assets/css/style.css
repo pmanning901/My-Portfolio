@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;800&family=Ubuntu:ital,wght@0,400;0,500;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.increased-width {
+    max-width: 1400px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+/* navigation styles */
+
+.navbox {
+    position: fixed;
+    width: 100%;
+    padding: 0px 0 23px;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.navbox .sticky:hover {
+    color: mediumturquoise;
+}
+
+.navbox .sticky {
+    background: url("../imgs/office.jpg") no-repeat center;
+    background-size: 1400px;
+    padding: 20px;
+    background-attachment: fixed;
+    background-position: 80%;
+    background: mediumturquoise;
+}
+
+.navbox .increased-width {
+    display: flex;
+    background: mediumturquoise;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbox .logo a {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.navbox .logo a span {
+    color: mediumblue;
+}
+
+.navbar.sticky .logo a span {
+    color: #fff;
+}
+
+.navbox .menu li a {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.2s ease-in;
+}
+
+.navbox .menu li a:hover {
+    color: mediumblue;
+}
+
+.navbox .menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbox .sticky .menu li a:hover {
+    color: #ffffff;
+}
+
+.navlinks img {
+    max-height: 200px;
+}
+
+/* startup section styling  */
+
+.startup {
+    background: url("../imgs/office.jpg") no-repeat center;
+    height: 100vh;
+    padding: 7%;
+    color: #ffffff;
+    background-size: 1400px;
+    background-attachment: fixed;
+    background-position: 80%;
+    font-size: 34px;
+    padding-bottom: 24px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    color: rgb(0, 222, 252);
+}
+
+.startup .max-width {
+    margin: auto 0 auto 40px;
+    
+}
+
+.startup .startup-content .info-a {
+    padding-top: 38px;
+    font-size: 27px;
+    color: mediumblue;
+}
+
+.startup .startup-content .info-b {
+    font-size: 75px;
+    margin-top: 30px;
+    font-weight: 600;
+    margin-left: 3px;
+}
+
+.startup .startup-content .info-c {
+    font-size: 35px;
+    margin: 5px 0;
+}
+
+.startup .info-c .HRE {
+    font-size: 42px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: mediumblue;
+}
+
+.hero {
+    background: navajowhite;
+}
+
+.ex-services {
+    padding: 30px;
+    clear: both;
+    display: block;
+    width: 30%;
+    float: right;
+    margin: 0px auto;
+    height: 90%;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: mediumturquoise;
+    font-size: 15px;
+}
+
+.ex-services h3 {
+    padding-top: 5px;
+    background: mediumblue;
+    justify-content: space-between;
+    flex: 1;
+    margin-bottom: 10px;
+}
+
+h4 {
+    padding: 4px;
+    background: mediumblue;
+    margin-top: 10px;
+    justify-content: space-evenly;
+    font-size: 23px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.footer {
+    padding: 30px;
+    clear: both;
+font-family: 'Ubuntu' sans-serif;    
+text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
