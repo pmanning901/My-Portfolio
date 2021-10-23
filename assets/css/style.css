@@ -65,7 +65,7 @@ body {
 }
 
 .navbar.sticky .logo a span {
-    color: #fff;
+    color: #fff;;
 }
 
 .navbox .menu li a {
@@ -74,7 +74,7 @@ body {
     font-weight: 500;
     margin-left: 25px;
     transition: color 0.2s ease-in;
-    text-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.5);
 }
 
 .navbox .menu li a:hover {
@@ -151,6 +151,7 @@ p {
     background: wheat;
     color: steelblue;
     text-align: center;
+    border-radius: 10px;
 }
 
 .navlinks img {
@@ -248,6 +249,7 @@ p {
     background-color: wheat;
     color: #ffffff;
     font-size: 15px;
+    border-radius: 10px;
 }
 
 .ex-services h3 {
@@ -285,18 +287,35 @@ f .contact-info>* {
 
 .contact-info div {
     color: white;
+    text-align: center;
 }
 
 .contact-info h3 {
-    color: mediumturquoise;
+    color: darkslategray;
     font-size: 32px;
     
 }
+
+address{
+    padding: 5px 15px 10px;
+    color: mediumblue;
+    font-family: 'Ubuntu' sans-serif;
+    text-align: center;
+    
+}
+form{
+    background-color: slategray;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 25px;
+    width:auto;
+padding: 25px;
+}
 div .contact-form input, .contact-name{
-    width: 30%;
+    width: 70%;
     color: mediumblue;
     display: block;
-    padding: 7px 15px;
+    padding: 7px 5px;
     border: 1px solid mediumblue;
 }
 
@@ -313,7 +332,7 @@ div .contact-form input, .contact-form textarea {
     padding: 7px 15px;
     font-size: 16px;
     color: mediumblue;
-    width: 30%;
+    width: 100%;
     margin-bottom: 15px;
     margin-top: 5px;
     border-radius: 10px;
@@ -326,7 +345,7 @@ div.contact-form input:focus, .contact-form textarea:focus {
 }
 
 div.contact-form button {
-    width: 30%;
+    width: 100%;
     border: none;
     margin: 5px;
     margin-bottom: 15px;
