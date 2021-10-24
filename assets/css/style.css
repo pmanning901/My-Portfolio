@@ -13,6 +13,7 @@ html {
 body {
     font-family: 'Ubuntu';
     background: wheat;
+
 }
 
 .increased-width {
@@ -294,13 +295,11 @@ f .contact-info>* {
 .contact-info h3 {
     color: rgb(0, 222, 252);
     font-size: 42px;
-    margin-left: .2cm;
+    margin-left: .2cm;    
 }
-
-.contact-info h3 .contact-me {
+.contact-info h3 .contact-me{
     justify-content: space-between;
 }
-
 .contact-info iframe {
     height: 400px;
     padding-top: 10px;
@@ -308,7 +307,7 @@ f .contact-info>* {
     margin-left: 2.5cm;
 }
 
-div .address {
+div .address{
     padding: 23px;
     color: mediumblue;
     margin: 20px 0;
@@ -316,19 +315,18 @@ div .address {
     font-size: 16px;
     font-style: normal;
     margin-left: 3cm;
+    
 }
-
-form {
+form{
     background-color: slategray;
     border-radius: 10px;
     margin-top: 10px;
     margin-right: 5cm;
     margin-left: 1cm;
-    width: 100%;
-    padding: 35px;
+    width:100%;
+padding: 35px;
 }
-
-div .contact-form input, .contact-name {
+div .contact-form input, .contact-name{
     width: 70%;
     color: mediumblue;
     display: block;
@@ -411,4 +409,3 @@ div .contact-info a {
 
 /* Footer styling ends */
 
-/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
