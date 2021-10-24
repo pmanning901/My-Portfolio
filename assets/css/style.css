@@ -95,7 +95,6 @@ body {
 footer {
     width: 100%;
     padding: 40px 35px;
-    display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
@@ -409,3 +408,7 @@ div .contact-info a {
 .footer h2 {
     font-size: 20px;
 }
+
+/* Footer styling ends */
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
