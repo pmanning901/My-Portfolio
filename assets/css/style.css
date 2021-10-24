@@ -12,6 +12,8 @@ html {
 
 body {
     font-family: 'Ubuntu';
+    background: wheat;
+
 }
 
 .increased-width {
@@ -28,6 +30,7 @@ body {
     padding: 0px 0 23px;
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
+display: flex;
 }
 
 .navbox .sticky:hover {
@@ -132,14 +135,14 @@ footer div {
 }
 
 h2 {
-    color: darkslategray;
+    color: rgba(72, 209, 205, 0.74);
     font-size: 34px;
     font-family: 'Ubuntu' sans-serif;
     padding: 5px;
     padding-top: 25px;
 }
 
-p {
+.content p {
     padding-top: 50px;
 }
 
@@ -148,8 +151,8 @@ p {
     padding: 25px;
     padding-top: 15px;
     height: 300px;
-    background: wheat;
-    color: steelblue;
+    background: slategray;
+    color: rgb(0, 66, 248);
     text-align: center;
     border-radius: 10px;
 }
@@ -246,7 +249,7 @@ p {
     margin: 0px auto;
     height: 90%;
     font-family: 'Ubuntu', sans-serif;
-    background-color: wheat;
+    background-color: slategray;
     color: #ffffff;
     font-size: 15px;
     border-radius: 10px;
@@ -254,7 +257,7 @@ p {
 
 .ex-services h3 {
     padding-top: 5px;
-    background: mediumblue;
+    background: rgba(0, 0, 205, 0.726);
     justify-content: space-between;
     flex: 1;
     margin-bottom: 10px;
@@ -262,7 +265,7 @@ p {
 
 h4 {
     padding: 4px;
-    background: mediumblue;
+    background: rgba(0, 0, 205, 0.726);
     margin-top: 10px;
     justify-content: space-evenly;
     font-size: 23px;
@@ -291,25 +294,38 @@ f .contact-info>* {
 }
 
 .contact-info h3 {
-    color: darkslategray;
-    font-size: 32px;
-    
+    color: rgb(0, 222, 252);
+    font-size: 42px;
+    margin-left: .2cm;    
+}
+.contact-info h3 .contact-me{
+    justify-content: space-between;
+}
+.contact-info iframe {
+    height: 400px;
+    padding-top: 10px;
+    margin-right: 6cm;
+    margin-left: 2.5cm;
 }
 
-address{
-    padding: 5px 15px 10px;
+div .address{
+    padding: 23px;
     color: mediumblue;
-    font-family: 'Ubuntu' sans-serif;
-    text-align: center;
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 16px;
+    font-style: normal;
+    margin-left: 3cm;
     
 }
 form{
     background-color: slategray;
     border-radius: 10px;
     margin-top: 10px;
-    margin-left: 25px;
-    width:auto;
-padding: 25px;
+    margin-right: 5cm;
+    margin-left: 1cm;
+    width:100%;
+padding: 35px;
 }
 div .contact-form input, .contact-name{
     width: 70%;
@@ -320,10 +336,12 @@ div .contact-form input, .contact-name{
 }
 
 .contact-info p, .contact-info address h3 {
-    margin: 20px 0;
+    margin-top: 2cm;
+    margin-right: 10cm;
     line-height: 1.5;
     font-size: 16px;
     font-style: normal;
+    text-align: left;
 }
 
 div .contact-form input, .contact-form textarea {
