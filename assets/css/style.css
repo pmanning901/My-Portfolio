@@ -29,7 +29,6 @@ body {
     padding: 0px 0 23px;
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
-    display: flex;
 }
 
 .navbox .sticky:hover {
@@ -96,7 +95,6 @@ body {
 footer {
     width: 100%;
     padding: 40px 35px;
-    display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
@@ -132,7 +130,6 @@ footer div {
     width: 75%;
     margin-left: 25px;
     display: block;
-    display: flex;
 }
 
 h2 {
@@ -415,34 +412,3 @@ div .contact-info a {
 /* Footer styling ends */
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
-
-@media screen and (max-width: 980px) {
-    .navlinks {
-        font-size: 12px;
-        flex: 2 100%;
-    }
-    p {
-        font-size: 12px;
-        flex: 2 100%
-    }
-    .navlinks img {
-        flex: 0 32%;
-        margin-right: 0;
-        margin-top: 15px;;
-    }
-    .about {
-        flex: 0 32%;
-        font-size: 12px;
-    }
-    img float-left{
-        margin-top: 10px;
-    }
-}
-
-/* MEDIA QUERY FOR TABLETS AND SMALLER */
-
-@media screen and (max-width: 768px) {
-    h2 {
-        flex: 0 32%
-    }
-}
